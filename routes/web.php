@@ -2,9 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\HotelController;
-use App\Http\Controllers\ServiciosController;
-use App\Http\Controllers\ContactoController;
+use App\Http\Controllers\CatalogoController;
+use App\Http\Controllers\PqrController;
+use App\Http\Controllers\EstudianteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,26 +15,14 @@ use App\Http\Controllers\ContactoController;
 //*****Ruta HOME */
 Route::get('/', [HomeController::class, 'index']);
 
-//*****Rutas HOTEL */
-Route::get('hotel/historia',[HotelController::class, 'historia']);
-Route::get('hotel/mision-vision', [HotelController::class, 'misionVision']);
-Route::get('hotel/equipo',  [HotelController::class, 'equipo']);
+/*****Ruta CATALOGO */
+Route::get('catalogo/perros',[CatalogoController::class,'perros'])->name('perros');
+Route::get('catalogo/gatos',[CatalogoController::class,'gatos'])->name('gatos');
 
-/*****Rutas SERVICIOS
-Route::get('servicios/habitaciones', function () {
-    return view('servicios.habitaciones');
-}); */
-Route::get('servicios/habitaciones',[ServiciosController::class,'habitaciones']);
-Route::get('servicios/servicios',[ServiciosController::class,'servicios']);
-Route::get('servicios/eventos/{id}',
-[ServiciosController::class,'eventos'])->name('listadoEvento');
+Route::get('catalogo/detalle/{id}/{nombre}/{precio}/{foto}',
+[CatalogoController::class,'detalle']);
 
-Route::get('servicios/eventos/detalle/{id}/{nombre}/{fecha}',
-[ServiciosController::class,'detalle']);
-
-//*****Ruta RESERVAS */
-Route::get('reservas',[ContactoController::class, 'reservaFormulario'])->name('formReserva');
-Route::post('reservas',[ContactoController::class, 'reservaRegistro'])->name('registrarReserva');
-
-//*****Ruta CONTACTO */
-Route::get('contacto', [ContactoController::class, 'contacto']);
+//*****Ruta PQR */
+Route::get('pqr', [PqrController::class, 'pqr']);
+//*****Ruta ESTUDIANTE */
+Route::get('estudiante',  [EstudianteController::class, 'estudiante']);
