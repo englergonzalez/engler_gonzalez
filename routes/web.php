@@ -18,7 +18,6 @@ Route::get('/', [HomeController::class, 'index']);
 //*****Rutas HOTEL */
 Route::get('hotel/historia',[HotelController::class, 'historia']);
 Route::get('hotel/mision-vision', [HotelController::class, 'misionVision']);
-Route::get('hotel/ubicacion', [HotelController::class, 'ubicacion']);
 Route::get('hotel/equipo',  [HotelController::class, 'equipo']);
 
 /*****Rutas SERVICIOS
@@ -34,7 +33,8 @@ Route::get('servicios/eventos/detalle/{id}/{nombre}/{fecha}',
 [ServiciosController::class,'detalle']);
 
 //*****Ruta RESERVAS */
-Route::get('reservas',[ContactoController::class, 'reserva']);
+Route::get('reservas',[ContactoController::class, 'reservaFormulario'])->name('formReserva');
+Route::post('reservas',[ContactoController::class, 'reservaRegistro'])->name('registrarReserva');
 
 //*****Ruta CONTACTO */
 Route::get('contacto', [ContactoController::class, 'contacto']);

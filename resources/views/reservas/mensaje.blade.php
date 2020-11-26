@@ -1,7 +1,8 @@
 @extends('master')
 @section('content')
-    Bienvenidos
+    Reserva exitosa
 @stop
+
 @section('inf')
 <div class="container">
     

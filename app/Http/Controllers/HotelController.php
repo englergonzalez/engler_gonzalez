@@ -15,10 +15,6 @@ class HotelController extends Controller
         return view('hotel.mision-vision');
     }
 
-    public function ubicacion(){
-        return view('hotel.ubicacion');
-    }
-
     public function equipo(){
         return view('hotel.equipo');
     }

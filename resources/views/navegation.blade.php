@@ -3,7 +3,7 @@
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a class="navbar-brand" href="{{url('/')}}"><img src="" alt="" class="img-fluid"><span style="font-size:15pt">&#9820;</span>APP</a></h1>
+        <h1 class="text-light"><a class="navbar-brand" href="{{url('/')}}"><img src="" alt="" class="img-fluid"><span style="font-size:15pt"></span></a></h1>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
@@ -21,7 +21,6 @@
                     </ul>
                 </li>
                 <li><a href="{{url('/hotel/equipo')}}">Equipo</a></li>
-                <li><a href="{{url('/hotel/ubicacion')}}">Ubicación</a></li>
             </ul>
         </li>
             

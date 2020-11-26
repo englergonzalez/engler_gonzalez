@@ -1,6 +1,6 @@
 @extends('master')
 @section('content')
-    Estudiante
+    Engler Gonzalez
 @stop
 
 @section('inf')
@@ -10,12 +10,12 @@
 
         <div class="section-title" data-aos="fade-up">
         <h2>Est. Ingeniería de Sistemas</h2>
-          <p>Estudiantes de Ingeniería de Sistemas, de la Universidad de Nariño, con amplio conocimiento en el area, para ofrecerte calidad en mi trabajo.</p>
+          <p>Estudiantes de Ingeniería de Sistemas, de la Universidad de Nariño, con amplio conocimiento en el area, para ofrecerte calidad en el trabajo.</p>
         </div>
 
         <div class="row">
 
-          <div class="  col-md-6" data-aos="fade-up"  data-aos-delay="100">
+          <div class="  col-md-12" data-aos="fade-up"  data-aos-delay="100">
             <div class="member">
               <img src="{{url('/img/team/engler.jpg')}}" class="img-fluid" alt="">
               <div class="member-info">
