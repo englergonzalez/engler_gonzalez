@@ -13,7 +13,7 @@
         <link href="{{ url('/assets/main.css') }}" rel="stylesheet">
         <link href="{{ url('/assets/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
 
-        <title>Hotel La Rivera</title>
+        <title>Parcial N1</title>
 
     </head>
     <body class="antialiased">

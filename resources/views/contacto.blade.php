@@ -9,7 +9,7 @@
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Comunicate con nosotros</h2>
+          <h2>Comunicate</h2>
           <p>En menos de 24 Horas nos pondremos en contacto contigo.</p>
         </div>
         
@@ -23,13 +23,13 @@
                 <div class="email mt-4 col-6 form-group">
                   <i class="icofont-envelope"></i>
                   <h4>Correo Electronico:</h4>
-                  <p>escribe@hotellarivera.com</p>
+                  <p>englergonzalez@hotmail.com</p>
                 </div>
 
                 <div class="phone mt-4 col-6 form-group">
                   <i class="icofont-phone"></i>
                   <h4>Llamadas/WhatsApp:</h4>
-                  <p>+57 312 233 4141</p>
+                  <p>+57 318 528 8051</p>
                 </div>
 
                 <div class="col-md-4 form-group">

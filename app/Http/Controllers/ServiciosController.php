@@ -29,9 +29,31 @@ class ServiciosController extends Controller
         */
     }
     public function eventos($id){
+
+        $eventos =[
+            array('id'=> '1', 'nombre' => 'Salida a Boca Grande', 'fecha'=> '24-11-2020'),
+            array('id'=> '2', 'nombre' => 'Tour temporada de ballenas', 'fecha'=> '31-11-2020'),
+            array('id'=> '3', 'nombre' => 'Tres tesores por descubrir', 'fecha'=> '05-11-2020'),
+            array('id'=> '4', 'nombre' => 'Carnavales del Fuego', 'fecha'=> '12-11-2020')
+
+        ];
+        $titulo = "Listado de Eventos";
+        return view('servicios.eventos', compact('eventos','titulo'));
+
+        /* Como estaba anteriormente
         return view('servicios.eventos', array('id' => $id,
                                             'nombre'=> 'Carnavales del fuego',
                                             'fecha' =>'15 Nov. 2023'));
+                                            */
+    }
+
+    public function detalle($id,$nombre,$fecha){
+        return view('servicios.evento_detalle', array(
+            'id' => $id,
+            'nombre' => $nombre,
+            'fecha' => $fecha
+            )
+        );
     }
 
     public function Servicios()

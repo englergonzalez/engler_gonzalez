@@ -3,7 +3,7 @@
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a class="navbar-brand" href="{{url('/')}}"><img src="" alt="" class="img-fluid"><span style="font-size:15pt">&#9820;</span>HOTEL LA RIVERA</a></h1>
+        <h1 class="text-light"><a class="navbar-brand" href="{{url('/')}}"><img src="" alt="" class="img-fluid"><span style="font-size:15pt">&#9820;</span>APP</a></h1>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
@@ -11,7 +11,7 @@
         <li class="drop-down nav-item">
             <a class="nav-link" href="#">
                 <span class="glyphicon glyphicon-film" aria-hidden="true"></span>
-                Hotel
+                Inicio
             </a>
             <ul>
                 <li class="drop-down"><a class="nav-link">Sobre nosotros</a>
@@ -39,6 +39,8 @@
                 </li>
                 <li class="nav-item"><a href="{{url('/servicios/eventos/¿?')}}"><span>&#10010</span>
                 Eventos</a></li>
+                <li class="nav-item"><a href="{{url('/servicios/servicios')}}"><span>&#10010</span>
+                Otros servicios</a></li>
             </ul>
         </li>
         <li class="nav-item {{  Request::is('reservas') ? 'active' : ''}}">

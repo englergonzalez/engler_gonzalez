@@ -27,7 +27,11 @@ Route::get('servicios/habitaciones', function () {
 }); */
 Route::get('servicios/habitaciones',[ServiciosController::class,'habitaciones']);
 Route::get('servicios/servicios',[ServiciosController::class,'servicios']);
-Route::get('servicios/eventos/{id}',[ServiciosController::class,'eventos']);
+Route::get('servicios/eventos/{id}',
+[ServiciosController::class,'eventos'])->name('listadoEvento');
+
+Route::get('servicios/eventos/detalle/{id}/{nombre}/{fecha}',
+[ServiciosController::class,'detalle']);
 
 //*****Ruta RESERVAS */
 Route::get('reservas',[ContactoController::class, 'reserva']);

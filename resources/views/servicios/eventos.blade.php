@@ -1,6 +1,20 @@
 @extends('master')
 @section('content')
-    Eventos {{ $id }}
-    <h2><?php echo $nombre ?> </h2>
-    <h2> Fecha: <?php echo $fecha ?> </h2>
+    Eventos {{ $id ?? '' }}
+@stop
+
+@section('inf')
+<div class="container">
+    <br>
+    <h1>{{$titulo}}</h1>
+    <ul>
+        @foreach($eventos as $c)
+            <li> {{ $c['nombre'] }} 
+            <a href='{{ url("servicios/eventos/detalle/$c[id]/$c[nombre]/$c[fecha]") }}'> 
+            Ver detalles </a>
+            </li>
+        @endforeach
+    </ul>
+    <br>
+</div>
 @stop
