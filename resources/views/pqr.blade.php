@@ -12,30 +12,28 @@
         <div class="section-title" data-aos="fade-up">
           <h2>¿Preguntas?</h2>
           <p>A continuación, una lista y respuesta de "preguntas frecuentes". Despues de haber leido nuestro contenido, tienes alguna duda o inquietud, 
-            por favor, dejanos saberlo en la section de Contacto, comunicate con nosotros y/o dejanos un mensaje, con gusto te atenderemos y
+              por favor, dejanos saberlo en la section de Contacto, comunicate con nosotros y/o dejanos un mensaje, con gusto te atenderemos y
              daremos respuesta pronto a solucionar cualquier inconveniente, sugerencia, queja o reclamo que tengas.</p>
         </div>
 
         <div class="faq-list">
           <ul>
-            <li data-aos="fade-up">
-              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1">¿Cómo hacer una reserva? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+            <li data-aos="fade-up" data-aos-delay="00">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1">¿Cómo hacer una compra?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-1" class="collapse show" data-parent=".faq-list">
                 <p>
-                  Las respuestas que ofrezcas pueden no ser correctas, o el usuario puede tener preguntas adicionales para ti. 
-                  En cualquier caso, es útil tanto para ti como para el usuario que la conversación continúe.
-                  
+                  Las respuestas que ofrecemos pueden no ser correctas, o usted como usuario puede tener preguntas adicionales. 
+                  En cualquier caso, es útil tanto para nosotros como para usted que la conversación continúe.
+                  por favor, contactenos.
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2" class="collapsed">¿Cómo cancelar una reserva? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2" class="collapsed">¿Cómo hacer una compra? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-2" class="collapse" data-parent=".faq-list">
                 <p>
-                  Es fácil comenzar a responder preguntas de asistencia. No te preocupes, no tienes que ser un experto en Thunderbird para aportar. 
-                  La mayoría de las preguntas ya están respondidas en algún artículo de
-                   la base de conocimientos y sólo necesitarás contestar citando un enlace al artículo.
+                  Es fácil comenzar a hacer preguntas. No te preocupes, no tienes que ser un experto.
                 </p>
               </div>
             </li>
@@ -44,9 +42,7 @@
               <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-3" class="collapsed">¿Obtener los precios de nuestros servicios? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-3" class="collapse" data-parent=".faq-list">
                 <p>
-                  Es fácil comenzar a responder preguntas de asistencia. No te preocupes, no tienes que ser un experto en Thunderbird para aportar. 
-                  La mayoría de las preguntas ya están respondidas en algún artículo de la base de conocimientos
-                   y sólo necesitarás contestar citando un enlace al artículo.
+                  Busca en la parte superior derecha, la vista catalogo y seleciona Perros o Gatos, de momento sólo tenemos contenido para estos dos animales precioesos, ya pronto ampliaremos nuestro catalogo, gracias.
                 </p>
               </div>
             </li>
@@ -55,9 +51,7 @@
               <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4" class="collapsed">¿Cómo adquirir una membresia mensual/anual? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-4" class="collapse" data-parent=".faq-list">
                 <p>
-                  Es fácil comenzar a responder preguntas de asistencia. No te preocupes, no tienes que ser un experto en
-                   Thunderbird para aportar. La mayoría de las preguntas ya están respondidas en 
-                  algún artículo de la base de conocimientos y sólo necesitarás contestar citando un enlace al artículo.
+                  Para adquirir membresia, debes ir hasta nuestra tienda fisica, de momento nuestro sitio web no tiene esta opcion
                 </p>
               </div>
             </li>
@@ -66,10 +60,7 @@
               <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5" class="collapsed">¿Cómo adquirir algunos de nuestros productos? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-5" class="collapse" data-parent=".faq-list">
                 <p>
-                  En lugar de intentar resolver el problema del usuario por ti mismo cada vez,
-                   busca primero para ver si ya se ha preguntado previamente. Intenta usar la base de 
-                   artículos de conocimiento antes que nada. Estos artículos han sido revisados para asegurar su calidad y tienen información para todos los sistemas compatibles.
-                   Recuerda, no sólo estás ayudando a la persona que ha hecho la pregunta, estás ayudando a todos los que lean esa misma conversación en el futuro.
+                  Una vez estés seguro de que es lo que estás buscando, sólo debes precionar en comprar, en 6 días habiles entregaremos tu producto.
                 </p>
               </div>
             </li>
